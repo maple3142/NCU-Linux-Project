@@ -1,0 +1,12 @@
+stack addr=0xffbc90d8 phy=0x7a30e0d8
+	ffba8000-ffbca000 6 [stack]
+data addr=0x804a028 phy=0x7a30d028
+	804a000-804b000 6 /home/maple3142/Desktop/linux-3.10.104/userland_program/project2
+bss addr=0x804a030 phy=0x7a30d030
+	804a000-804b000 6 /home/maple3142/Desktop/linux-3.10.104/userland_program/project2
+heap addr=0x804b008 phy=0x7a30b008
+	804b000-806c000 6 [heap]
+text addr=0x80484eb phy=0x949b64eb
+	8048000-8049000 5 /home/maple3142/Desktop/linux-3.10.104/userland_program/project2
+lib addr=0xf758e030 phy=0x9156f030
+	f7545000-f76f2000 5 /lib32/libc-2.23.so
